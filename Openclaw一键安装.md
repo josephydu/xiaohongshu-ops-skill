@@ -3,7 +3,7 @@
 ## 这次遇到的问题总结
 
 1. `brew` 路线在无管理员权限的 macOS 上会失败（需要 `sudo`）。
-2. OpenClaw 新版本（如 `2026.2.21-2`）下，`OpenAI Codex OAuth` 不能走 `--non-interactive`，会报 `OAuth requires interactive mode.`。
+2. OpenClaw 新版本下，`OpenAI Codex OAuth` 不能走 `--non-interactive`，会报 `OAuth requires interactive mode.`。
 3. 用 `nvm` 安装后，旧终端或非交互 shell 里可能出现 `npm/openclaw command not found`（环境未加载 `nvm`）。
 4. 只做 onboarding 但不启动 gateway 时，`openclaw status` 可能显示 `Gateway unreachable`。
 
@@ -12,6 +12,8 @@
 - 新机器 0 到 1 安装 OpenClaw
 - 使用 OpenAI Codex OAuth
 - 尽可能自动化，碰到版本差异时自动回退到可用流程
+
+> 如果安装失败请先运行 openclaw --version 和 openclaw status 查看当前版本，并查阅 https://docs.openclaw.ai 确认最新安装说明。
 
 ## 一键脚本（推荐，直接粘贴执行）
 
