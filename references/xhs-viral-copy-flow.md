@@ -32,11 +32,6 @@
 - 兜底抓取：`.swiper-slide-active .img-container img`
 - 取 `currentSrc || src`，再转存为 PNG/JPG 后用于生图输入。
 
-本次实战记录（699e7680000000002801fd62）：
-- 直接取第一个 `.img-container` 会抓到错误封面（常见是上一张或 duplicate）。
-- 正确做法是以 `swiper-slide-active` 为准，再排除 `.swiper-slide-duplicate`。
-- 已验证有效封面 key：`1040g3k031t0du6pc5s005qbtv55n7e4t2h6fqk8`（active 图）。
-
 输出 `Source Template`（简短结构化）。
 
 ## 3) Viral Copy 改写规则（tight）

@@ -11,9 +11,8 @@
 <img src="./assets/xiaohongshu-ops-poster.jpg" alt="xiaohongshu-ops 海报" width="720" />
 
 ## What's New
-- **03.19**：重点转向AI辅助创作和分析，新增`推荐流分析`,`账号分析`,`选题灵感`,`知识库`
-- **02.28**: 爆款笔记复刻，输入爆款笔记链接，分析爆款因素，生成类似的笔记，包含图文
-- **02.27**: nano banana生成封面图，并通过图文发布流程发布 （需要gemini_api_key, 可白嫖)
+
+最近版本变更记录见 [CHANGELOG.md](./CHANGELOG.md)。
 
 ## 核心能力
 - ✅ 首页推荐流分析：为什么这些高赞笔记能被推荐给你？背后的传播钩子和内容结构是什么？
